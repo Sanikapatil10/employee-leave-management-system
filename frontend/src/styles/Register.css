@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+}
+
+.register-container {
+  height: 100vh;
+  background: #f5f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.register-card {
+  width: 420px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Header */
+.logo-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo-box {
+  width: 36px;
+  height: 36px;
+  background: #2563eb;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.subtitle {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.register-title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.register-title h3 {
+  font-size: 20px;
+}
+
+.register-title p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 14px;
+}
+
+.input-group label {
+  font-size: 13px;
+  color: #374151;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+/* Button */
+.register-btn {
+  width: 100%;
+  padding: 11px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.register-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Link */
+.signin-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}

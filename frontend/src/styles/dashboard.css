@@ -1,0 +1,74 @@
+.dashboard-header h1 {
+    margin-bottom: 5px;
+  }
+  
+  .dashboard-header p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card h3 {
+    color: #666;
+    font-weight: 500;
+  }
+  
+  .card h2 {
+    margin: 10px 0;
+    font-size: 28px;
+    color: #2563eb;
+  }
+  
+  .table-card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .empty-text {
+    color: #777;
+    margin-top: 15px;
+  }
+  .leave-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .leave-table th,
+  .leave-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .status.approved {
+    background: #d1fae5;
+    color: #059669;
+  }
+  
+  .status.pending {
+    background: #fde68a;
+    color: #b45309;
+  }

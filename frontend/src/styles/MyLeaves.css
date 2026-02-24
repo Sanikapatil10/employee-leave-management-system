@@ -1,0 +1,115 @@
+/* Page Background */
+.myleaves-container {
+  padding: 30px;
+  background: #f5f7fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center content like dashboard */
+}
+
+/* Header */
+.myleaves-header {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 15px;
+}
+
+.myleaves-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.myleaves-header p {
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+/* Card */
+.table-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Table */
+.leave-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leave-table thead {
+  background: #f9fafb;
+}
+
+.leave-table th,
+.leave-table td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.leave-table th {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  text-transform: uppercase;
+}
+
+.leave-table td {
+  font-size: 14px;
+  color: #111827;
+}
+
+/* Status badges */
+.status {
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Pending */
+.status.pending {
+  background: #fff7ed;
+  color: #c2410c;
+}
+
+/* Approved */
+.status.approved {
+  background: #ecfdf5;
+  color: #047857;
+}
+
+/* Rejected */
+.status.rejected {
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+/* No data */
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .leave-table th,
+  .leave-table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .table-card {
+    padding: 15px;
+  }
+}

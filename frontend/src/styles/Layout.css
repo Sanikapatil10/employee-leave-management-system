@@ -1,0 +1,10 @@
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+    background: #f3f4f6; /* exact light grey */
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 40px;
+  }

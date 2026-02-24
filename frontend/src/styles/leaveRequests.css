@@ -1,0 +1,91 @@
+.leave-container h1 {
+    margin-bottom: 5px;
+  }
+  
+  .filter-box {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .filter-box button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #f3f4f6;
+  }
+  
+  .filter-box .active {
+    background: #2563eb;
+    color: white;
+  }
+  
+  .table-card {
+    background: white;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .status {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .status.approved {
+    background: #d1fae5;
+    color: #059669;
+  }
+  
+  .status.pending {
+    background: #fde68a;
+    color: #b45309;
+  }
+  
+  .status.rejected {
+    background: #fecaca;
+    color: #dc2626;
+  }
+  
+  .approve-btn {
+    background: #d1fae5;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .reject-btn {
+    background: #fecaca;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .reason-cell {
+    max-width: 220px;
+    word-wrap: break-word;
+    font-size: 13px;
+    color: #374151;
+  }
